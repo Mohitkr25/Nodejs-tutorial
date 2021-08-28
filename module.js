@@ -76,3 +76,25 @@ const os = require("os");
 //events module
 
 const Emitter = require("events");
+const myEmiter = new Emitter();
+
+// myEmiter.on("somename", (data) => {
+//   console.log(data);
+// });
+
+// myEmiter.emit("somename", {
+//   name: "Mohit",
+// });
+
+// class mAuth extends Emitter {
+//   register(username) {
+//     console.log("Registered succcesfully with username : ", username);
+//     this.emit("register", username);
+//   }
+// }
+// const mauth = new mAuth();
+// // listener
+// mauth.on("register", (data) => {
+//   console.log(`sending email to the ${data}`);
+// });
+// mauth.register("Mohit");
